@@ -1,0 +1,32 @@
+.parent{
+    border: 2px solid black;
+    background-color: rgb(210, 216, 216);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 50px auto;
+}
+.child{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+    padding-top: 50px;
+}
+.btnStyle{
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    margin-top: 120px;
+}
+img{
+    height: 200px;
+    width: 150px;
+}
